@@ -41,5 +41,5 @@ jobs:
             docker stop ${{ secrets.CONTAINER_NAME }}
             docker rm ${{ secrets.CONTAINER_NAME }}
             docker rmi ${{ secrets.DOCKERHUB_USERNAME }}/${{ secrets.IMAGE_NAME }}
-            docker run --name ${{ secrets.CONTAINER_NAME }} -d -p 8000:8000 --link mysqlsaya -e DBHOST=${{ secrets.DBHOST }} -e DBUSER=${{ secrets.DBUSER }} -e DBPORT=${{ secrets.DBPORT }} -e DBPASS=${{ secrets.DBPASS }} -e DBNAME=db_ku ${{ secrets.DOCKERHUB_USERNAME }}/${{ secrets.IMAGE_NAME }}
+            docker run --name ${{ secrets.CONTAINER_NAME }} -d -p 8000:8000 --link mysqlsaya -e DBHOST=${{ secrets.DBHOST }} -e DBUSER=root -e DBPORT=${{ secrets.DBPORT }} -e DBPASS=${{ secrets.DBPASS }} -e DBNAME=db_ku ${{ secrets.DOCKERHUB_USERNAME }}/${{ secrets.IMAGE_NAME }}
 
