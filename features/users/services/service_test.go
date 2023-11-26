@@ -1,10 +1,10 @@
 package services_test
 
 import (
-	"TugasDay23/features/users"
-	"TugasDay23/features/users/mocks"
-	"TugasDay23/features/users/services"
-	enkMock "TugasDay23/helper/enkrip/mocks"
+	"ci_cd/features/users"
+	"ci_cd/features/users/mocks"
+	"ci_cd/features/users/services"
+	enkMock "ci_cd/helper/enkrip/mocks"
 	"errors"
 	"testing"
 

@@ -1,16 +1,16 @@
 package main
 
 import (
-	"TugasDay23/config"
-	ch "TugasDay23/features/coupons/handler"
-	cr "TugasDay23/features/coupons/repository"
-	cs "TugasDay23/features/coupons/services"
-	uh "TugasDay23/features/users/handler"
-	ur "TugasDay23/features/users/repository"
-	us "TugasDay23/features/users/services"
-	"TugasDay23/helper/enkrip"
-	"TugasDay23/routes"
-	"TugasDay23/utils/database"
+	"ci_cd/config"
+	ch "ci_cd/features/coupons/handler"
+	cr "ci_cd/features/coupons/repository"
+	cs "ci_cd/features/coupons/services"
+	uh "ci_cd/features/users/handler"
+	ur "ci_cd/features/users/repository"
+	us "ci_cd/features/users/services"
+	"ci_cd/helper/enkrip"
+	"ci_cd/routes"
+	"ci_cd/utils/database"
 
 	"github.com/labstack/echo/v4"
 )

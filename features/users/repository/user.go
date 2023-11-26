@@ -1,8 +1,8 @@
 package repository
 
 import (
-	"TugasDay23/features/coupons/repository"
-	"TugasDay23/features/users"
+	"ci_cd/features/coupons/repository"
+	"ci_cd/features/users"
 
 	"gorm.io/gorm"
 )

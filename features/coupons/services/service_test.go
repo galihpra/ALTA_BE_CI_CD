@@ -1,10 +1,10 @@
 package services_test
 
 import (
-	"TugasDay23/features/coupons"
-	"TugasDay23/features/coupons/mocks"
-	"TugasDay23/features/coupons/services"
-	"TugasDay23/helper/jwt"
+	"ci_cd/features/coupons"
+	"ci_cd/features/coupons/mocks"
+	"ci_cd/features/coupons/services"
+	"ci_cd/helper/jwt"
 	"errors"
 	"testing"
 

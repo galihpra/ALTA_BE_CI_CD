@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	coupons "TugasDay23/features/coupons"
+	coupons "ci_cd/features/coupons"
 
 	jwt "github.com/golang-jwt/jwt/v5"
 

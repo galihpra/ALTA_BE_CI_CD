@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"TugasDay23/features/coupons"
-	"TugasDay23/features/users"
+	"ci_cd/features/coupons"
+	"ci_cd/features/users"
 
 	echojwt "github.com/labstack/echo-jwt/v4"
 	"github.com/labstack/echo/v4"

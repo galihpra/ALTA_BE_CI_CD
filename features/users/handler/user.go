@@ -1,9 +1,9 @@
 package handler
 
 import (
-	"TugasDay23/features/users"
-	"TugasDay23/helper/jwt"
-	"TugasDay23/helper/responses"
+	"ci_cd/features/users"
+	"ci_cd/helper/jwt"
+	"ci_cd/helper/responses"
 	"net/http"
 	"strings"
 

@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"TugasDay23/features/coupons"
+	"ci_cd/features/coupons"
 	"log"
 
 	"gorm.io/gorm"

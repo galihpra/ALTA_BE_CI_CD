@@ -1,7 +1,7 @@
 package database
 
 import (
-	"TugasDay23/config"
+	"ci_cd/config"
 	"fmt"
 
 	"github.com/labstack/gommon/log"

@@ -1,8 +1,8 @@
 package services
 
 import (
-	"TugasDay23/features/coupons"
-	"TugasDay23/helper/jwt"
+	"ci_cd/features/coupons"
+	"ci_cd/helper/jwt"
 	"errors"
 	"strings"
 

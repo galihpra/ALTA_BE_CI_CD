@@ -1,8 +1,8 @@
 package services
 
 import (
-	"TugasDay23/features/users"
-	"TugasDay23/helper/enkrip"
+	"ci_cd/features/users"
+	"ci_cd/helper/enkrip"
 	"errors"
 	"strings"
 )
